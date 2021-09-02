@@ -2,9 +2,9 @@ data "terraform_remote_state" "random_pet" {
   backend = "remote"
 
   config = {
-    organization = "vivien-paid-org"
+    organization = "YOUR-ORGANISATION-NAME"
     workspaces = {
-      name = "random-pet"
+      name = "YOUR-WORKSPACE-NAME"
     }
   }
 }
